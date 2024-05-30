@@ -1,10 +1,11 @@
 import { database } from "./fishData.js"
 
 // Generate an HTML representation of each fish
-export const fishList = () => {
-    let fishHTML = `<h2 class="meet">Meet our Fish</h2>`
+export const fishList = (fishArr) => {
+    const currentFishArr = fishArr
+    let fishHTML = ``
 
-    for (const fishy of database.fish) {
+    for (const fishy of currentFishArr) {
         fishHTML +=`
             <article class="fish">
                 <img class="fish_pic" src="${fishy.image}" alt="picture of a ${fishy.species}">
