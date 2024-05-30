@@ -48,6 +48,110 @@ export const database = {
             diet: "Omnivore",
             image: "../images/pufferfish5.webp"
         },
+        {
+            name: "Marlin",
+            species: "Clownfish",
+            length: 6,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "https://example.com/images/marlin.jpg"
+        },
+        {
+            name: "Bubbles",
+            species: "Yellow Tang",
+            length: 5,
+            location: "Hawaii",
+            diet: "Herbivore",
+            image: "https://example.com/images/bubbles.jpg"
+        },
+        {
+            name: "Gill",
+            species: "Moorish Idol",
+            length: 10,
+            location: "Indian Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/gill.jpg"
+        },
+        {
+            name: "Deb",
+            species: "Black and White Damselfish",
+            length: 4,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/deb.jpg"
+        },
+        {
+            name: "Jacques",
+            species: "Cleaner Shrimp",
+            length: 3,
+            location: "Caribbean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/jacques.jpg"
+        },
+        {
+            name: "Bloat",
+            species: "Porcupine Pufferfish",
+            length: 12,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/bloat.jpg"
+        },
+        {
+            name: "Peach",
+            species: "Starfish",
+            length: 15,
+            location: "Atlantic Ocean",
+            diet: "Omnivore",
+            image: "https://example.com/images/peach.jpg"
+        },
+        {
+            name: "Gurgle",
+            species: "Royal Gramma",
+            length: 2,
+            location: "Caribbean Sea",
+            diet: "Carnivore",
+            image: "https://example.com/images/gurgle.jpg"
+        },
+        {
+            name: "Blenny",
+            species: "Blenny",
+            length: 9,
+            location: "Mediterranean Sea",
+            diet: "Omnivore",
+            image: "https://example.com/images/blenny.jpg"
+        },
+        {
+            name: "Squirt",
+            species: "Green Sea Turtle",
+            length: 30,
+            location: "Pacific Ocean",
+            diet: "Herbivore",
+            image: "https://example.com/images/squirt.jpg"
+        },
+        {
+            name: "Anchor",
+            species: "Hammerhead Shark",
+            length: 18,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/anchor.jpg"
+        },
+        {
+            name: "Chum",
+            species: "Mako Shark",
+            length: 16,
+            location: "Pacific Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/chum.jpg"
+        },
+        {
+            name: "Anchor",
+            species: "Hammerhead Shark",
+            length: 18,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/anchor.jpg"
+        }
     ],
     tips: [
         {

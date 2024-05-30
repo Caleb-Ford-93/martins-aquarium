@@ -1,15 +1,88 @@
 /* center h1 at the top of the page  */
+header { 
+    text-align: center;
+    margin: 30px, 0, 60px, 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
 
 /*
 id fishList left flexbox row and wrap
 style each fish (class=fish) as it's own card (flex)
 */
 
-/* 
-id tipList is right displayed as a ul 
-*/
+/*each individual fish card*/
+.fish {
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 280px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+/*dynamic fish cards*/
+.fish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+/*img of fish*/
+.fish_pic { 
+    max-width: 10rem;
+}
+/*fish name and info together*/
+.fish_details {
+    padding: 20px;
+}
+/*just the name of the fish*/
+.fish_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+/*just the info about fish*/
+.fish_info {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
+/*care tips*/
+aside { 
+    display:flex;
+    flex-direction: column;
+    max-width: 30%;
+    flex-wrap: nowrap;
+}
 
 /* 
 id locationList is left under fishList
 style each class=location as it's own card (flex)
 */
+.location {
+    flex-basis: 200px;
+    flex-grow: 1;
+    max-width: 280px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.tip {
+    padding-bottom: 20px;
+}
